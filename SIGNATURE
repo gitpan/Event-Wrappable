@@ -1,0 +1,48 @@
+This file contains message digests of all files listed in MANIFEST,
+signed via the Module::Signature module, version 0.68.
+
+To verify the content in this distribution, first make sure you have
+Module::Signature installed, then type:
+
+    % cpansign -v
+
+It will check each file's integrity, as well as the signature's
+validity.  If "==> Signature verified OK! <==" is not displayed,
+the distribution may already have been compromised, and you should
+not run its Makefile.PL or Build.PL.
+
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+SHA1 8be71ebf447e146affcb7015e1411a961b8f45f7 ChangeLog
+SHA1 df53fc49fee9588c4bd782c86383040abd7ebed3 INSTALL
+SHA1 776b35de0d79370b17f9b26a61565d97aaee5acd LICENSE
+SHA1 21bf1c461c02e5ef0d21cdc54a9c478a0cbd97fa MANIFEST
+SHA1 5bbacba55ad0a2090708b64a2a8d2443f923b396 META.yml
+SHA1 76c925c0799cb94e4d122497f1b996600f306da1 Makefile.PL
+SHA1 aaff197fc166607b9339c44b130c3bacc0bbf02b README
+SHA1 10de31a43019cbec5a1de25f282959c2f5ef50ce lib/Event/Wrappable.pm
+SHA1 adb0a6399ff525a4439a7deeaadd2c9473f17bea t/method.t
+SHA1 05a7773551a9ce09e04ffdddd74d4e12a08b6cbf t/pod-coverage.t
+SHA1 b2131e5af08c2702a3742365d55f365e9cc0cf15 t/pod.t
+SHA1 455d1dd1867212a665ad5ea4126b572411de300c t/release-no-tabs.t
+SHA1 8d931d5c7b6fc03e39a744d59522e4b7077562a1 t/release-portability.t
+SHA1 25757ae58f7fcebb68b3dc5fd59d2b971ead6b7e t/scope_based.t
+SHA1 82573f6fd1acd653057f82f8462b05a52e8aa8a1 t/threads.t
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.10 (GNU/Linux)
+
+iQIcBAEBAgAGBQJQFObBAAoJEF6ojHedHIiFG1cQANfTv3WVyUU0PlHERKSJO2M0
+H3rLtgM91ZNJH9hq8bpSvC9jRePsizEOnxN8fwSFytl7xzej8KaBPLAxNqMHp4gy
+2SdGfXPWVfTLBwBMZrQ3slIxz0x6RaH0U4wvj6TGI9vDSUr+grHayQxzHCd4Sith
+pHHeTut1yIz9nSLNE8mHwVdyv+0x1/lQgc4KhToJrWps6T2tscTKeftrZG4KB6Cj
+AaUm/L6GW9AsFbkrzA7Vto2rIlx0ffUeIfIhdUndQMEvIwNtYNv7Ks4NQ7I6C24c
+KG8siDfq7qxvjAxreT6p9PhMmLhrRcrH6hEZ5r3nZI/+Q6Gt5eO4T6LsknkXYAcZ
+Uju6RB3CJvBblOaot+NJV4D884ShmhMJxG90GYY3OB0OcwOB9RapdZC3E3GZSitU
+cxnZ8Ve7UxwHv9Rqut0vzZJSmJrNnefhNYer2h6EEB/2oJc7hUw5T/GBm3lS9aV+
++pkhtfO0zusJHzo70pK6U7q95PyPTsXiScg5R7PnhwaeseuWsApRueGPK969OfyG
+JmAwYPlHZCo8P8Fd5Y9PHB7FDiPlTrgHDCJygBIz1p0Ns924kpTDndtjjxmDHEuP
+n9PGdDpY8naHf5jSA2j+GlCHH3z8Yi0NI3d9dBmCzdoYqjD/Q3MzK9K8wIz0CEle
+B/5ypFGLoI1NHfEpkMGM
+=nLR7
+-----END PGP SIGNATURE-----
