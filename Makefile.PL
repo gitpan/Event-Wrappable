@@ -20,10 +20,11 @@ my %WriteMakefileArgs = (
   "LICENSE" => "perl",
   "NAME" => "Event::Wrappable",
   "PREREQ_PM" => {
+    "Scalar::Util" => 0,
     "Sub::Clone" => 0,
     "Sub::Exporter" => 0
   },
-  "VERSION" => "0.1.0",
+  "VERSION" => "0.1.1",
   "test" => {
     "TESTS" => "t/*.t"
   }

@@ -1,7 +1,7 @@
 # ABSTRACT: Sugar to let you instrument event listeners at a distance
 package Event::Wrappable;
 {
-  $Event::Wrappable::VERSION = '0.1.0';
+  $Event::Wrappable::VERSION = '0.1.1';
 }
 use strict;
 use warnings;
@@ -102,7 +102,7 @@ Event::Wrappable - Sugar to let you instrument event listeners at a distance
 
 =head1 VERSION
 
-version 0.1.0
+version 0.1.1
 
 =head1 SYNOPSIS
 

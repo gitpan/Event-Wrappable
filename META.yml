@@ -13,10 +13,11 @@ meta-spec:
   version: 1.4
 name: Event-Wrappable
 requires:
+  Scalar::Util: 0
   Sub::Clone: 0
   Sub::Exporter: 0
 resources:
   bugtracker: https://github.com/iarna/Event-Wrappable/issues
   homepage: https://github.com/iarna/Event-Wrappable
   repository: https://github.com/iarna/Event-Wrappable.git
-version: 0.1.0
+version: 0.1.1
